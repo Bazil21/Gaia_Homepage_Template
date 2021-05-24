@@ -14,7 +14,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 500) {
+        if (scroll > 300) {
           $(".scrolled").css({"background": "#fff", "color": "#333", "border-bottom": "1px solid grey"});
           $(".nav-link").css({"color": "#333"});
         }
