@@ -15,11 +15,13 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 500) {
-          $(".scrolled").css({"background": "#fff", "color": "#333"});
+          $(".scrolled").css({"background": "#fff", "color": "#333", "border-bottom": "1px solid grey"});
+          $(".nav-link").css({"color": "#333"});
         }
   
         else{
-            $(".scrolled").css({"background-color": "transparent", "color": "white"});  	
+            $(".scrolled").css({"background-color": "transparent", "color": "white","border-bottom": "none"}); 
+            $(".nav-link").css({"color": "#ffffff"}); 	
         }
     })
   })
