@@ -79,6 +79,10 @@ body .hero .hero-content {
   text-align:center;
   text-indent:0px;
 }
+.hero-content h1{
+  font-family: "Cambo", "Times New Roman", serif;
+  font-size:50.4px;
+}
 body .content {
   position: absolute;
   z-index: 1000;
