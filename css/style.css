@@ -7,11 +7,11 @@ body{
   box-sizing: border-box;
 }
 ul{
-    margin-right:130px;
+    margin-right:80px;
 }
 .nav-item{
-  font-family: 'Lato', sans-serif;
-    margin:15px 3px;
+    font-family: 'Lato', sans-serif;
+    margin:5px 3px;
     padding:11px 15px;
 }
 .nav-link{
@@ -27,9 +27,9 @@ ul{
   background-color: rgb(214, 28, 28);
   padding:10px 20px;
   line-height:19.2px;
-vertical-align:middle;
-letter-spacing:normal;
-word-spacing:0px;
+  vertical-align:middle;
+  letter-spacing:normal;
+  word-spacing:0px;
 }
 .hero {
   position: fixed;
