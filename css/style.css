@@ -38,17 +38,17 @@ word-spacing:0px;
   bottom: 0;
   left: 0;
   right: 0;
-  background: url();
-  background:linear-gradient(0deg, rgba(189, 186, 186, 0.514),rgba(189, 186, 186, 0.514)), url("https://images.unsplash.com/photo-1449247613801-ab06418e2861?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb80a15068b7e5da425b33750319daaa");
-  background-size: cover;
+  background:linear-gradient(0deg, rgba(189, 186, 186, 0.315),rgba(189, 186, 186, 0.315)), url("https://images.unsplash.com/photo-1449247613801-ab06418e2861?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb80a15068b7e5da425b33750319daaa");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100%;
+  
 }
 body .hero:before {
   content: '';
   height: 100%;
-  width: 150vw;
-  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  background: rgba(0, 0, 0, 0.507);
   position: absolute;
 }
 body .hero .hero-content {
