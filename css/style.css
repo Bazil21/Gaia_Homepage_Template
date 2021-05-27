@@ -118,6 +118,31 @@ body .hero .hero-content {
   margin-top: 30px;
   border: 1px solid #ffffff;
 }
+.separator-container-sec{
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  color: #e78b90;
+
+}
+.separator-sec:before{
+    display: block;
+    float: left;
+    border-color: white;
+    width: 40%;
+    content: " ";
+    margin-top: 10px;
+    border: 1px solid #e78b90;
+}
+.separator-sec::after{
+  display: block;
+  float: right;
+  border-color: white;
+  width: 40%;
+  content: " ";
+  margin-top: 10px;
+  border: 1px solid #e78b90;
+}
 .hero-content h5{
   font-family: Cambo, "Times New Roman", serif;
   line-height:27.3px;
