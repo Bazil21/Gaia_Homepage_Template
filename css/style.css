@@ -189,7 +189,22 @@ body .content {
   box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-
+.title-area h2{
+  color:#333333;
+  font-family:"Cambo", "Times New Roman", "serif";
+  font-size:33.6px;
+  line-height:42px;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:0px;
+  margin:13.44px 0px;
+  font-weight:700;
+  font-style:normal;
+  font-variant:normal;
+  text-transform:none;
+  text-decoration:none solid rgb(51, 51, 51);
+  text-align:center;
+}
 .ct_icon_box {
   margin-bottom: 50px;
 }
