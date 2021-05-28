@@ -31,7 +31,7 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     // Add scrollspy to <body>
-    $('body').scrollspy({target:".content", offset: 50});   
+    $('body').scrollspy({target:".content", offset: 0});   
   
     // Add smooth scrolling on all links inside the navbar
     $("#section02 a").on('click', function(event) {
