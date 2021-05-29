@@ -212,7 +212,7 @@ body .content {
   position: absolute;
   z-index: 1000;
   top: 150vh;
-  background: #faf8f8;
+  background: #fff;
   width: 100%;
   box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -273,6 +273,15 @@ body .content {
   font-size:33.6px;
   line-height:42px;
   margin:13.44px 0px;
+  text-align: center;
+  font-family:"Cambo", "Times New Roman", "serif";
+  font-weight: 700;
+
+}
+.description
+{
+  color:#777777;
+
 }
 .navbar-fixed-top.scrolled {
         position:fixed;
