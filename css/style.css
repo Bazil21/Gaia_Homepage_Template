@@ -266,6 +266,13 @@ body .content {
   text-align: center;
   font-weight: 500;
   font-style: normal;
+  text-decoration:none solid rgb(119, 119, 119);
+}
+.sec-title-area h2{
+  color:#333333;
+  font-size:33.6px;
+  line-height:42px;
+  margin:13.44px 0px;
 }
 .navbar-fixed-top.scrolled {
         position:fixed;
