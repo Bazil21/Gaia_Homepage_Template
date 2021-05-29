@@ -260,8 +260,12 @@ body .content {
   font-size:16.8px;
   line-height:18.48px;
   letter-spacing:normal;
+  font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-spacing:0px;
   margin:10px 0px;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
 }
 .navbar-fixed-top.scrolled {
         position:fixed;
