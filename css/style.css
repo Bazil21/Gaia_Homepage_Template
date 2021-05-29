@@ -281,6 +281,12 @@ body .content {
 .description
 {
   color:#777777;
+  font-size:16px;
+  font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height:25.6px;
+  margin:20px 0px 20px;
+  padding: 5px;
 
 }
 .navbar-fixed-top.scrolled {
@@ -300,5 +306,10 @@ body .content {
     color: yellow;
     padding: 20px;
     border-radius: 5px;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+  br {
+      display: none;
   }
 }
