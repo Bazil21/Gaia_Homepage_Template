@@ -255,6 +255,14 @@ body .content {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.subtitle{
+  color:#777777;
+  font-size:16.8px;
+  line-height:18.48px;
+  letter-spacing:normal;
+  word-spacing:0px;
+  margin:10px 0px;
+}
 .navbar-fixed-top.scrolled {
         position:fixed;
         top:0;
