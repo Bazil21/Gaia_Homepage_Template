@@ -39,10 +39,11 @@ ul{
   bottom: 0;
   left: 0;
   right: 0;
+  max-width: 100%;
   background:linear-gradient(0deg, rgba(189, 186, 186, 0.315),rgba(189, 186, 186, 0.315)), url("https://images.unsplash.com/photo-1449247613801-ab06418e2861?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb80a15068b7e5da425b33750319daaa");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  background-position: center;
   
 }
 body .hero:before {
@@ -59,7 +60,6 @@ body .hero .hero-content {
   color: white;
   text-align: center;
   line-height: 4rem;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
   margin: 30vh auto 0;
   overflow: auto;
   
@@ -211,7 +211,7 @@ body .hero .hero-content {
 body .content {
   position: absolute;
   z-index: 1000;
-  top: 150vh;
+  top: 100vh;
   background: #fff;
   width: 100%;
   box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
