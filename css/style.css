@@ -210,8 +210,6 @@ body .hero .hero-content {
   box-sizing: border-box;
 }
 
-
-
 body .content {
   position: absolute;
   z-index: 1000;
@@ -293,14 +291,14 @@ body .content {
   padding: 5px;
 
 }
+.section-our-projects-fluid .row [class^="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
 .project {
   position: relative;
   width: 100%;
   overflow: hidden;
-}
-.project .animate {
-  position: relative;
-  z-index: 2;
 }
 .project img {
   width: 100%;
@@ -379,6 +377,10 @@ body .content {
   perspective: 300px;
 }
 .project h3 {
+  font-family:"Cambo", "Times New Roman", serif;
+  font-size:22.54px;
+  line-height:23.667px;
+  margin:15px 0px;
   opacity: 0;
   font-weight: 600;
   -webkit-transform: translateY(-20px);
@@ -408,7 +410,7 @@ body .content {
 }
 
 .label{
-  font-size: smaller;
+  font-size: 13px;
   font-weight: normal;
   padding: 1px;
   border-radius: 2px;
