@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+html {
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 body{
   box-sizing: border-box;
   -moz-osx-font-smoothing: grayscale;
@@ -10,7 +15,32 @@ body{
   font-family: "Cambo", "Times New Roman", serif;
   font-size: 100%;
 }
-
+@media (min-width: 58em) {
+  body {
+    font-size: 100%;
+  }
+}
+@media (min-width: 115em) {
+  body {
+    font-size: 110%;
+  }
+}
+@media (min-width: 125em) {
+  body {
+    font-size: 115%;
+  }
+}
+@media (min-width: 145em) {
+  body {
+    font-size: 120%;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body {
+    font-feature-settings: normal;
+    /* Internet Explorer fix */
+  }
+}
 ul{
     margin-right:80px;
 }
@@ -302,6 +332,7 @@ body .content {
 }
 .project img {
   width: 100%;
+  height: 100%;
 }
 .project .over-area {
   display: inline-block;
