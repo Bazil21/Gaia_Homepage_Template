@@ -5,7 +5,12 @@
 }
 body{
   box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Cambo", "Times New Roman", serif;
+  font-size: 100%;
 }
+
 ul{
     margin-right:80px;
 }
@@ -83,7 +88,6 @@ body .hero .hero-content {
   text-indent:0px;
 }
 .hero-content h1{
-  font-family: "Cambo", "Times New Roman", serif;
   font-size:50.4px;
   line-height:61.1596px;
   vertical-align:baseline;
@@ -387,7 +391,10 @@ body .content {
   transition: opacity 0.2s, transform 0.2s;
 }
 .project p {
-  font-size: 1em;
+  font-family:"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:22.4px;
+  font-size:14px;
+  margin:0px 0px 10.5px;
   color: #FFFFFF;
   opacity: 0;
   -webkit-transform: translateY(-20px);
