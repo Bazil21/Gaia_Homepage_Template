@@ -467,6 +467,58 @@ body .content {
   background-color: #e78b90;
 }
 
+.section-our-clients-freebie .nav-text,
+.section-our-clients .nav-text {
+  margin: 30px auto;
+  text-align: center;
+}
+.section-our-clients-freebie .nav-text li,
+.section-our-clients .nav-text li {
+  margin: 0 10px 10px 0;
+}
+
+.section-our-clients .nav-text li a img {
+  width: 120px;
+}
+.section-our-clients-freebie .tab-content,
+.section-our-clients .tab-content {
+  text-align: center;
+  max-width: 760px;
+  min-height: 130px;
+  margin: 0 auto;
+}
+
+.section-our-clients-freebie .tab-content p.large,
+.section-our-clients .tab-content p.large {
+  color: #777777;
+}
+
+.list-logos .active .client-logo {
+  color: #c5a47e;
+}
+.list-logos a {
+  opacity: 0.9;
+  color: #333333;
+  text-decoration: none;
+}
+
+.list-logos-info .active .client-logo {
+  color: #00abc0;
+}
+
+.client-logo {
+  text-align: center;
+  margin: 0 15px;
+}
+.client-logo i {
+  font-size: 35px;
+  width: auto;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.client-logo h3 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .navbar-fixed-top.scrolled {
         position:fixed;
         top:0;
