@@ -485,7 +485,6 @@ body .content {
 }
 .client-logo i {
   font-size: 35px;
-  width: auto;
   margin-bottom: 5px;
   text-align: center;
 }
@@ -500,9 +499,14 @@ body .content {
 
 .section-our-clients .nav-text li {
   margin: 0 10px 10px 0;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
 }
-
+.tab-pane{
+  margin-top: -30px;
+}
 .section-our-clients .tab-content {
   text-align: center;
   max-width: 760px;
@@ -510,7 +514,7 @@ body .content {
   margin: 0 auto;
 }
 
-.section-our-clients-freebie .tab-content p.large,
+
 .section-our-clients .tab-content p.large {
   color: #777777;
 }
@@ -526,6 +530,7 @@ body .content {
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 
@@ -546,6 +551,10 @@ align-items: center;
     color: yellow;
     padding: 20px;
     border-radius: 5px;
+  }
+  .section-our-clients .nav-text li {
+    margin: 0 10px 10px 0;
+    width: 33%;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 700px) {
