@@ -466,33 +466,6 @@ body .content {
 .label-danger {
   background-color: #e78b90;
 }
-
-.section-our-clients-freebie .nav-text,
-.section-our-clients .nav-text {
-  margin: 30px auto;
-  text-align: center;
-}
-.section-our-clients-freebie .nav-text li,
-.section-our-clients .nav-text li {
-  margin: 0 10px 10px 0;
-}
-
-.section-our-clients .nav-text li a img {
-  width: 120px;
-}
-.section-our-clients-freebie .tab-content,
-.section-our-clients .tab-content {
-  text-align: center;
-  max-width: 760px;
-  min-height: 130px;
-  margin: 0 auto;
-}
-
-.section-our-clients-freebie .tab-content p.large,
-.section-our-clients .tab-content p.large {
-  color: #777777;
-}
-
 .list-logos .active .client-logo {
   color: #c5a47e;
 }
@@ -519,6 +492,43 @@ body .content {
 .client-logo h3 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.section-our-clients .nav-text {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.section-our-clients .nav-text li {
+  margin: 0 10px 10px 0;
+
+}
+
+.section-our-clients .tab-content {
+  text-align: center;
+  max-width: 760px;
+  min-height: 130px;
+  margin: 0 auto;
+}
+
+.section-our-clients-freebie .tab-content p.large,
+.section-our-clients .tab-content p.large {
+  color: #777777;
+}
+
+.project-content .icon-close i, .nav-text > li.active a {
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+.section-our-clients ul{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
 .navbar-fixed-top.scrolled {
         position:fixed;
         top:0;
