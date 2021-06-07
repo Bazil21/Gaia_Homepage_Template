@@ -632,9 +632,12 @@ align-items: center;
     background-color: #333333;
     width: 50%;
     float: right;
-    color: yellow;
+    color: yellow !important;
     padding: 20px;
     border-radius: 5px;
+  }
+  .nav-link {
+    color: white !important;
   }
   .section-our-clients .nav-text li {
     margin: 0 10px 10px 0;
