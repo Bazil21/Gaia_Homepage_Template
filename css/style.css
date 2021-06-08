@@ -666,10 +666,11 @@ footer .row div:first-child .title {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  display: block;
 }
 .footer nav > ul a:not(.btn) {
   color: #777777;
-  display: block;
+  display: block !important;
   margin-bottom: 3px;
 }
 .footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
@@ -683,13 +684,12 @@ footer .row div:first-child .title {
 }
 .footer .social-area > a:not(.btn) {
   color: #777777;
-  display: inline-block;
   vertical-align: top;
   padding: 10px 5px;
   font-size: 18px;
   font-weight: normal;
   line-height: 20px;
-  text-align: center;
+  text-align: start;
 }
 .footer .social-area > a:not(.btn):hover, .footer .social-area > a:not(.btn):focus {
   color: #777777;
@@ -724,6 +724,10 @@ footer .row div:first-child .title {
   margin-left: 20px;
   float: left;
 }
+.footer:not(.footer-big) nav > ul li:first-child {
+  margin-left: 0;
+}
+
 .footer:not(.footer-big) nav > ul a {
   padding: 10px 0px;
   margin: 15px 10px 15px 0px;
@@ -891,6 +895,7 @@ footer .row div:first-child .title {
   top: -2px;
   width: 24px;
 }
+
 .navbar-fixed-top.scrolled {
         position:fixed;
         top:0;
