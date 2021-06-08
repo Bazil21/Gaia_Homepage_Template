@@ -644,7 +644,7 @@ footer .row .info {
   margin-top: 15px;
 }
 footer .row .info .title {
-  text-align: center !important;
+  text-align: left !important;
   margin-top: 25px;
 }
 footer .row .info ul {
@@ -670,8 +670,9 @@ footer .row div:first-child .title {
 }
 .footer nav > ul a:not(.btn) {
   color: #777777;
-  display: block !important;
+  display: block;
   margin-bottom: 3px;
+  text-align: left;
 }
 .footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
   color: #777777;
@@ -920,6 +921,12 @@ footer .row div:first-child .title {
   .section-our-clients .nav-text li {
     margin: 0 10px 10px 0;
     width: 33%;
+  }
+  footer .row .info .title {
+    text-align: center !important;
+  }
+  .footer nav > ul a:not(.btn) {
+    text-align: center !important;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 700px) {
