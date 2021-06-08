@@ -536,35 +536,42 @@ justify-content: center;
 align-items: center;
 }
 /* HOME PAGE */
-.section .image {
-  background-size: cover;
-  background-position: center center;
+.section-get-started .parallax{
+    background-size: cover;
+  background-image: url('/assets/header-13.jpeg');
   background-repeat: no-repeat;
   width: 100%;
-  position: relative;
+  height: 100vh;
+  overflow: hidden;
   display: block;
+  position: relative;
 }
-.section-get-started .parallax{
+.section .parallax > img,
+.section .parallax .filter > img,
+.section .static-image > img,
+.section .static-image .filter > img {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
   height: auto;
+  position: relative;
+  z-index: 1;
 }
 .section-get-started {
   padding-bottom: 0;
 }
 .section-get-started .description{
-  color: #fff;
+  color: rgb(243, 243, 243);
 }
 .section-get-started .container{
   position: relative;
   z-index: 100;
   display: block;
-  margin-top: 30vh;
   text-align: center;
+
 }
 .section-get-started .parallax .image{
   height: 100vh !important;
-}
-.section-get-started .container {
-  margin: 15vh auto;
 }
 
 .section-get-started .button-contact {
