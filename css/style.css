@@ -50,7 +50,7 @@ ul{
 }
 .nav-item{
     font-family: 'Lato', sans-serif;
-    margin:15px 3px 0px 0px;
+    margin:0px 3px 0px 0px;
     padding:11px 15px;
 }
 .nav-link{
@@ -65,10 +65,10 @@ ul{
 }
 .nav-btn{
   background-color:#e47a80;
-  padding: 8px 10px;
-  height: 50px;
+  height: 45px;
+  width: 105px;
+  text-align: center;
   border-radius: 5px;
-  letter-spacing:normal;
   font-size:12px;
 }
 .hero {
@@ -714,6 +714,9 @@ footer .row div:first-child .title {
   font-size: 15px;
   font-weight: bold;
 }
+.social-title{
+  padding-left: 40px  !important;
+}
 .footer .btn-social {
   color: #9A9A9A;
 }
@@ -874,7 +877,7 @@ footer .row div:first-child .title {
 
 .btn-social {
   opacity: 0.85;
-  padding: 8px 9px;
+  padding: 8px 19px;
 }
 .btn-social .fa {
   font-size: 18px;
@@ -927,6 +930,9 @@ footer .row div:first-child .title {
   }
   .footer nav > ul a:not(.btn) {
     text-align: center !important;
+  }
+  .social-title{
+    padding-left:0px !important;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 700px) {
