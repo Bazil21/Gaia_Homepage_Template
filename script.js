@@ -16,7 +16,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 100) {
-          $(".scrolled").css({"background": "#fff", "color": "#333", "border-bottom": "1px solid grey"});
+          $(".scrolled").css({"background": "#e1e8eb", "color": "#333", "border-bottom": "1px solid grey"});
           $(".nav-link").css({"color": "#333"});
           $(".navbar-toggler span").css({"background-color": "#333"});
         }

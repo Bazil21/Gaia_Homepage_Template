@@ -260,7 +260,7 @@ body .hero .hero-content {
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  font : normal 400 20px/1 'combo', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
@@ -302,7 +302,7 @@ body .content {
   position: absolute;
   z-index: 1000;
   top: 100vh;
-  background: #fff;
+  background: #e1e8eb;
   width: 100%;
   box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
