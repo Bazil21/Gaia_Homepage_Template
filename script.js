@@ -18,19 +18,16 @@ $(document).ready(function(){
         if (scroll > 100) {
           $(".scrolled").css({"background": "#fff", "color": "#333", "border-bottom": "1px solid grey"});
           $(".nav-link").css({"color": "#333"});
+          $(".navbar-toggler span").css({"background-color": "#333"});
         }
   
         else{
             $(".scrolled").css({"background-color": "transparent", "color": "white","border-bottom": "none"}); 
             $(".nav-link").css({"color": "#ffffff"}); 	
+            $(".navbar-toggler span").css({"background-color": "#fff"});
         }
     })
   })
-  $(document).ready(function(){
-    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-      $(this).toggleClass('open');
-    });
-  });
   // Arrow  button onClick Function scrolldown 
 
   $(document).ready(function(){
