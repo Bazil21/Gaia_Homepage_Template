@@ -51,7 +51,7 @@ ul{
 }
 .nav-item{
     font-family: 'Lato', sans-serif;
-    margin:0px 3px 0px 0px;
+    margin:-10px 3px 0px 0px;
     padding:11px 15px;
 }
  .navbar-nav .nav-link:hover {
@@ -124,7 +124,7 @@ ul{
   background-color:#e47a80;
   height: 45px;
   width: 105px;
-  margin-top: 5px;
+  margin-top: -5px;
   text-align: center;
   border-radius: 5px;
   font-size:12px;
@@ -307,7 +307,7 @@ body .content {
   position: absolute;
   z-index: 1000;
   top: 100vh;
-  background: #e1e8eb;
+  background: #ffffff;
   width: 100%;
   box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
