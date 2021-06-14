@@ -695,6 +695,12 @@ align-items: center;
   padding: 0 15px;
   text-align: center;
 }
+.button-get-started .btn{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase !important;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
 .section-get-started h2{
   font-family: 'Montserrat', sans-serif;
   color: #FFF5FD !important;
