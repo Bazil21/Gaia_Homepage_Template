@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
 @font-face {
   font-family: 'combo';
   src: url('/assets/fonts/Combo-Regular.ttf');
@@ -106,8 +107,8 @@ ul{
 }
 
 .navbar-brand{
-  font-size: 30px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 .nav-link{
   color:#fff;
@@ -163,7 +164,7 @@ body .hero .hero-content {
 }
 
 .hero-content p {
-  font-family :"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:16px;
   line-height:25.6px;
   vertical-align:baseline;
@@ -243,7 +244,7 @@ body .hero .hero-content {
   border: 1px solid #e78b90;
 }
 .hero-content h5{
-  font-family: "Combo", "Times New Roman", serif;
+  font-family: 'Montserrat', sans-serif;
   line-height:27.3px;
   vertical-align:baseline;
   letter-spacing:normal;
@@ -316,7 +317,7 @@ body .content {
 }
 .title-area h2{
   color:#333333;
-  font-family:"Combo", "Times New Roman", "serif";
+  font-family: 'Montserrat', sans-serif;
   font-size:33.6px;
   line-height:42px;
   vertical-align:baseline;
@@ -368,15 +369,15 @@ body .content {
   line-height:42px;
   margin:13.44px 0px;
   text-align: center;
-  font-family:"Combo", "Times New Roman", "serif";
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 
 }
 .description
 {
   color:#777777;
   font-size:16px;
-  font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Lato";
   text-align: center;
   line-height:25.6px;
   margin:20px 0px 20px;
@@ -529,7 +530,7 @@ body .content {
   background-color: #e78b90;
 }
 .list-logos .active .client-logo {
-  color: #c5a47e;
+  color: #01937C;
 }
 .list-logos a {
   opacity: 0.9;
@@ -551,7 +552,7 @@ body .content {
   text-align: center;
 }
 .client-logo h3 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section-our-clients .nav-text {
@@ -693,7 +694,13 @@ align-items: center;
   display: block;
   padding: 0 15px;
   text-align: center;
-  color: #fff !important;
+}
+.section-get-started h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF5FD !important;
+  font-weight: 600;
+  font-size:33.6px;
+  margin:13.44px 0px;
 }
 footer {
   padding-top: 15px;
@@ -716,6 +723,8 @@ footer .row div:first-child .title {
 .footer {
   background-color: #000000 !important;
   line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   /*border-top: 1px solid #DDDDDD;*/
   overflow: hidden;
 }
