@@ -105,6 +105,10 @@ ul{
   opacity: 1;
 }
 
+.navbar-brand{
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
 .nav-link{
   color:#fff;
   font-size:12px;
