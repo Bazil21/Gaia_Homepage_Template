@@ -962,7 +962,7 @@ footer .row div:first-child .title {
   top: -1px;
   vertical-align: middle;
   display: inline-block;
-  position: relative;
+
 }
 .btn-social.btn-round {
   padding: 9px 10px;
@@ -977,7 +977,9 @@ footer .row div:first-child .title {
   top: -2px;
   width: 24px;
 }
-
+.btn-left{
+  margin-left: 10px;
+}
 .navbar-fixed-top.scrolled {
         position:fixed;
         top:0;
