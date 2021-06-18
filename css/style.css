@@ -394,8 +394,9 @@ body .content {
   overflow: hidden;
 }
 .project label{
-  font-size: 20px;
+  width: 120px;
   padding: 5px;
+  border-radius: 5px;
 }
 .project img {
   width: 100%;
