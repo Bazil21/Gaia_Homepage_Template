@@ -933,25 +933,6 @@ footer .row div:first-child .title {
   color: #FFFFFF;
 }
 
-.label-primary {
-  background-color: #c5a47e;
-}
-
-.label-info {
-  background-color: #00abc0;
-}
-
-.label-success {
-  background-color: #7accb8;
-}
-
-.label-warning {
-  background-color: #f88f58;
-}
-
-.label-danger {
-  background-color: #e78b90;
-}
 
 .btn-social {
   opacity: 0.85;
