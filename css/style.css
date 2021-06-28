@@ -107,6 +107,10 @@ ul{
 .nav-btn:hover{
   background-color: rgba(235, 110, 88, 0.986);
 }
+.dropdown-menu{
+  width: 50%;
+  margin: 0 auto;
+}
 .hero {
   position: fixed;
   z-index: 1;
@@ -953,11 +957,15 @@ footer .row div:first-child .title {
 
   .navbar-nav{
     background-color: #333333;
-    width: 60%;
+    width: 70%;
     float: right;
     color: yellow !important;
     padding: 20px;
     border-radius: 5px;
+  }
+  .dropdown-menu{
+    width: 50%;
+    margin: 0 auto;
   }
   .nav-link{
     color: white !important;
