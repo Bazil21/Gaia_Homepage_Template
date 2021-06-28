@@ -580,7 +580,7 @@ align-items: center;
 /* HOME PAGE */
 .section-get-started .parallax{
   max-width: 100%;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.466)), url("/assets/header-13.jpeg");
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.466)), url("../assets/header-13.jpeg");
     background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
