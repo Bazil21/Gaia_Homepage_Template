@@ -20,32 +20,7 @@ body{
   font-family: "Combo", "Times New Roman", serif;
   font-size: 100%;
 }
-@media (min-width: 58em) {
-  body {
-    font-size: 100%;
-  }
-}
-@media (min-width: 115em) {
-  body {
-    font-size: 110%;
-  }
-}
-@media (min-width: 125em) {
-  body {
-    font-size: 115%;
-  }
-}
-@media (min-width: 145em) {
-  body {
-    font-size: 120%;
-  }
-}
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  body {
-    font-feature-settings: normal;
-    /* Internet Explorer fix */
-  }
-}
+
 ul{
     margin-right:80px;
 }
@@ -128,6 +103,9 @@ ul{
   text-align: center;
   border-radius: 5px;
   font-size:12px;
+}
+.nav-btn:hover{
+  background-color: rgba(253, 70, 38, 0.747);
 }
 .hero {
   position: fixed;
@@ -1009,4 +987,30 @@ footer .row div:first-child .title {
     width: 33.33333333%;
     float: left;
 }
+}
+@media (min-width: 58em) {
+  body {
+    font-size: 100%;
+  }
+}
+@media (min-width: 115em) {
+  body {
+    font-size: 110%;
+  }
+}
+@media (min-width: 125em) {
+  body {
+    font-size: 115%;
+  }
+}
+@media (min-width: 145em) {
+  body {
+    font-size: 120%;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body {
+    font-feature-settings: normal;
+    /* Internet Explorer fix */
+  }
 }
