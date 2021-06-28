@@ -969,6 +969,8 @@ footer .row div:first-child .title {
         height:80px;
         color: white;
 }
+
+ /* ****************  Media Query **************** */
 @media screen and (max-width: 780px)  {
 
   .navbar-nav{
